@@ -1,12 +1,12 @@
 # 🔭 AstroScipte: An Observatory Proposal Assistant
 
-An AI-powered tool that helps astronomers, students, and researchers draft observing proposals for telescopes like **Gemini**, **JWST**, or **Keck** using natural language and the ChatGPT API.
+**AstroScipte** is a lightweight, PyTorch-based tool that helps astronomers, students, and researchers generate draft observing proposals for professional telescopes like **Gemini**, **JWST**, and **Keck** from natural language descriptions of their science goals.
 
 ---
 
 ## 🚀 Project Overview
 
-**Observatory Assistant** enables users to describe their scientific goals in plain English and receive a structured, professional-grade draft proposal tailored for a specific telescope and instrument. The tool uses OpenAI's language model to generate well-formatted sections typically required by observatories, saving time and helping users get started with proposal writing.
+**AstroScipte** enables users to describe their scientific goals in plain English and receive a structured, professional-grade draft proposal tailored for a specific telescope and instrument. The tool uses OpenAI's language model to generate well-formatted sections typically required by observatories, saving time and helping users get started with proposal writing.
 
 ---
 
@@ -35,10 +35,10 @@ An AI-powered tool that helps astronomers, students, and researchers draft obser
 
 ## 🛠️ Tech Stack
 
-- Python
-- OpenAI ChatGPT API
-- Streamlit or Jupyter (for UI)
-- astroquery *(optional for object metadata)*
+- PyTorch – core model framework
+- Custom seq2seq model (LSTM or Transformer) torchtext or Hugging Face tokenizer – preprocessing
+- Gradio (planned) – interactive UI for demo
+- LaTeX export (planned) – for generating formatted PDFs
 
 ---
 
@@ -51,6 +51,19 @@ Coming soon: a Jupyter prototype and Streamlit app!
 ## 🧠 Inspiration
 
 Time Allocation Committees (TACs) are competitive, and writing a clear, compelling proposal takes time. Observatory Assistant helps reduce the friction by offering instant drafts and guidance — like having an AI science writer on your team.
+
+---
+
+## 🧱 Project Scructure
+observatory-assistant/
+├── data/                  # Training CSV and tokenized outputs
+├── models/                # Saved model checkpoints
+├── notebooks/             # Experiment notebooks
+├── train.py               # Model training script
+├── evaluate.py            # Evaluation and testing
+├── dataset.py             # Data loader + preprocessing
+├── model.py               # Model architecture (LSTM, Transformer, etc.)
+└── README.md
 
 ---
 
