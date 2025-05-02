@@ -48,6 +48,17 @@ Coming soon: a Jupyter prototype and Streamlit app!
 
 ---
 
+## ✅ Progress
+
+- [x] Define project scope and structure
+- [ ] Collect sample proposals and generate prompt-response pairs
+- [ ] Build dataset loader and tokenizer
+- [ ] Train initial model (LSTM baseline)
+- [ ] Evaluate accuracy and coherence
+- [ ] Deploy via Gradio or Streamlit
+
+---
+
 ## 🧠 Inspiration
 
 Time Allocation Committees (TACs) are competitive, and writing a clear, compelling proposal takes time. Observatory Assistant helps reduce the friction by offering instant drafts and guidance — like having an AI science writer on your team.
