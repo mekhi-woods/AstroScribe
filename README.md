@@ -61,5 +61,4 @@ MIT License
 ---
 
 ## ✍️ Author
-
-[Your Name] – astrophysics + AI enthusiast  
+[Mekhi Woods](https://tinyurl.com/astrokhi) (mekhidwoods@gmail.com)
