@@ -55,14 +55,14 @@ Time Allocation Committees (TACs) are competitive, and writing a clear, compelli
 ---
 
 ## 🧱 Project Scructure
-observatory-assistant/
-├── data/                  # Training CSV and tokenized outputs
-├── models/                # Saved model checkpoints
-├── notebooks/             # Experiment notebooks
-├── train.py               # Model training script
-├── evaluate.py            # Evaluation and testing
-├── dataset.py             # Data loader + preprocessing
-├── model.py               # Model architecture (LSTM, Transformer, etc.)
+observatory-assistant/ \\
+├── data/                  # Training CSV and tokenized outputs \\
+├── models/                # Saved model checkpoints \\
+├── notebooks/             # Experiment notebooks \\ 
+├── train.py               # Model training script \\
+├── evaluate.py            # Evaluation and testing \\ 
+├── dataset.py             # Data loader + preprocessing \\ 
+├── model.py               # Model architecture (LSTM, Transformer, etc.) \\
 └── README.md
 
 ---
